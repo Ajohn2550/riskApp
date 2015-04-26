@@ -1,4 +1,4 @@
-// app.js
+// app.js - 1.0
 
 
 var Winner = "Defender";
