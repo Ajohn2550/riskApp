@@ -1,11 +1,10 @@
 // app.js - 1.0
 
-
-var Winner = "Defender";
 function die(){
   return 1 + Math.floor(Math.random() * 6);
 }
 function autoRoller(attacker, defender) {
+  var Winner = "Defender";
   console.log(attacker + ' VS ' + defender);
   while (attacker > 0){
     var attack = [];
@@ -34,6 +33,11 @@ function autoRoller(attacker, defender) {
       break;
     }
   }
+  results = {
+    winner: Winner,
+    attacker: attacker,
+    defender: defender
+  }
+  return results;
 }
-autoRoller(process.argv[2], process.argv[3]);
-console.log(Winner + " wins");
+console.log(autoRoller(process.argv[2], process.argv[3]));
