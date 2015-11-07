@@ -1,0 +1,19 @@
+{
+  "name": "riskapp",
+  "version": "1.0.0",
+  "description": "Auto roller for risk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ajohn2550/riskApp.git"
+  },
+  "author": "ajohn2550",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ajohn2550/riskApp/issues"
+  },
+  "homepage": "https://github.com/Ajohn2550/riskApp#readme"
+}
